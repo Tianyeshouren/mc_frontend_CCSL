@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>toolwebhtml</title>
+  </head>
+  <style type="text/css">body{width: 1280px; height: 720px; margin: auto; padding: 0}</style>
+  <body>
+    <div id="drag"> <div id="closebut" class="but" onclick="close()"> <i class="el-icon-close"></i></div> <div class="but" style="display:none">最小化</div></div>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script type="text/javascript">
+    var CLOSEbut = document.getElementById("closebut");
+    CLOSEbut.onclick = function() {
+    window.close()
+    }
+ </script>
+</html>
